@@ -1,0 +1,807 @@
+{
+   "welcome": "%cObrigado por usar o Umo Editor%cVersão atual: v{version}, Mais informações: {homepage}",
+  "toolbar": {
+    "ribbon": "Profissional",
+    "classic": "Clássico",
+    "toggle": "Barra de Ferramentas",
+    "show": "Mostrar Barra de Ferramentas",
+    "hide": "Ocultar Barra de Ferramentas",
+    "base": "Início",
+    "insert": "Inserir",
+    "table": "Tabela",
+    "tools": "Ferramentas",
+    "page": "Página",
+    "view": "Exibir",
+    "export": "Exportar"
+  },
+  "base": {
+    "align": {
+      "title": "Alinhamento",
+      "left": "Alinhar à Esquerda",
+      "center": "Centralizar",
+      "right": "Alinhar à Direita",
+      "justify": "Justificar",
+      "distributed": "Distribuído"
+    },
+    "bgColor": "Cor de Fundo do Texto",
+    "bold": "Negrito",
+    "letterSpacing": {
+      "text": "Espaçamento de Caracteres",
+      "tip": "Espaçamento atual: {value} Caractere(s)",
+      "reset": "Redefinir Espaçamento de Caracteres"
+    },
+    "clearFormat": "Limpar Formatação",
+    "code": "Código",
+    "color": "Cor da Fonte",
+    "fontFamily": {
+      "text": "Selecionar Fonte",
+      "all": "Fontes Comuns",
+      "recent": "Usadas Recentemente",
+      "used": "Fontes Usadas",
+      "unsupport": "Esta fonte pode não ser exibida corretamente, possivelmente por não estar instalada neste dispositivo",
+      "download": "Baixar",
+      "downloading": "Baixando",
+      "downloadActionTip": "Baixar e habilitar esta fonte no navegador atual",
+      "downloadStart": "{font} está sendo baixada e será habilitada automaticamente quando terminar",
+      "autoDownloadStart": "Baixando fontes necessárias para este documento",
+      "autoDownloadDone": "Fontes necessárias do documento baixadas",
+      "downloadSuccess": "{font} baixada e habilitada",
+      "downloadFailed": "Falha ao baixar {font}, tente novamente mais tarde",
+      "noDownloadUrl": "Nenhuma URL de download configurada para esta fonte"
+    },
+    "fontSize": {
+      "text": "Tamanho da Fonte",
+      "increase": "Aumentar Tamanho da Fonte",
+      "decrease": "Diminuir Tamanho da Fonte",
+      "default": "Padrão",
+      "42pt": "Primeiro",
+      "36pt": "Sub-primeiro",
+      "26pt": "Nível 1",
+      "24pt": "Sub-nível 1",
+      "22pt": "Nível 2",
+      "18pt": "Sub-nível 2",
+      "16pt": "Nível 3",
+      "15pt": "Sub-nível 3",
+      "14pt": "Nível 4",
+      "12pt": "Sub-nível 4",
+      "10_5pt": "Nível 5",
+      "9pt": "Sub-nível 5",
+      "7_5pt": "Sub-nível 6",
+      "6_5pt": "Padrão"
+    },
+    "formatPainter": {
+      "text": "Pincel de Formatação",
+      "tip": "Pincel de Formatação: Dê um duplo clique para reutilizar, pressione ESC para sair"
+    },
+    "wordWrap": {
+      "text": "Quebra de Linha",
+      "normal": "Normal",
+      "breakWord": "Quebrar Palavra",
+      "breakAll": "Quebrar Tudo"
+    },
+    "heading": {
+      "text": "Título {level}",
+      "paragraph": "Normal",
+      "tip": "Definir título, pode gerar mapa do documento com base nos títulos"
+    },
+    "highlight": {
+      "text": "Realce",
+      "clear": "Limpar Realce",
+      "yellowBg": "Fundo Amarelo",
+      "purpleBg": "Fundo Roxo",
+      "greenBg": "Fundo Verde",
+      "blueBg": "Fundo Azul",
+      "red": "Texto Vermelho",
+      "green": "Texto Verde"
+    },
+    "indent": "Aumentar Recuo",
+    "italic": "Itálico",
+    "lineHeight": {
+      "text": "Espaçamento entre Linhas",
+      "default": " (Padrão)"
+    },
+    "outdent": "Diminuir Recuo",
+    "margin": {
+      "text": "Espaçamento Vertical",
+      "top": "Superior",
+      "bottom": "Inferior",
+      "default": "Padrão",
+      "reset": "Espaçamento Automático"
+    },
+    "markdown": {
+      "text": "Markdown",
+      "enable": "Habilitar Markdown",
+      "disable": "Desabilitar Markdown",
+      "message": "Esta ação redefinirá o editor. Após a troca, o histórico atual será perdido, impossibilitando desfazer ações, etc. Confirmar agora?",
+      "toggle": "Trocar Agora"
+    },
+    "quote": "Citação",
+    "redo": "Refazer",
+    "selectAll": "Selecionar Tudo",
+    "strike": "Tachado",
+    "subscript": "Subscrito",
+    "superscript": "Sobrescrito",
+    "underline": "Sublinhado",
+    "undo": "Desfazer"
+  },
+  "insert": {
+    "audio": "Áudio",
+    "codeBlock": "Bloco de Código",
+    "date": "Data Chinesa",
+    "emoji": "Emoji",
+    "file": "Arquivo",
+    "hardBreak": "Quebra de Linha",
+    "hr": {
+      "text": "Divisória",
+      "title": "Estilo da Divisória",
+      "color": "Cor da Divisória",
+      "signle": "Linha Simples",
+      "double": "Linhas Duplas Finas",
+      "dotted": "Linha Pontilhada",
+      "dashed": "Linha Tracejada",
+      "dashedDouble": "Linha Dupla Tracejada",
+      "signleBold": "Linha Grossa",
+      "doubleBoldTop": "Linhas Grossa e Fina (Superior)",
+      "doubleBoldBottom": "Linhas Fina e Grossa (Inferior)",
+      "wavy": "Linha Ondulada"
+    },
+    "option": {
+      "text": "Opção",
+      "radio": "Botão de Opção",
+      "checkbox": "Caixa de Seleção",
+      "tip": "Tipo de Opção",
+      "content": "Conteúdo da Opção",
+      "add": "Adicionar Opção",
+      "checkall": "Mostrar Selecionar Tudo",
+      "check": "Selecionar Tudo",
+      "confirm": "Confirmar",
+      "cancel": "Cancelar",
+      "text1": "Opção 1",
+      "text2": "Opção 2"
+    },
+    "image": {
+      "text": "Imagem",
+      "block": "Imagem",
+      "blockdesc": "Inserir novo nó de imagem",
+      "inline": "Imagem em Linha",
+      "inlinedesc": "Inserir imagem em linha na linha atual"
+    },
+    "link": {
+      "text": "Link",
+      "confirm": "Confirmar",
+      "remove": "Remover Link",
+      "hrefText": "Texto do Link:",
+      "hrefTextTip": "Digite ou selecione o texto do link",
+      "href": "URL do Link:",
+      "hrefTip": "Geralmente começando com http:// ou https://",
+      "copy": "Copiar Link",
+      "copySuccess": "Cópia bem-sucedida",
+      "open": "Abrir Link",
+      "edit": "Editar Link"
+    },
+    "details": "Detalhes",
+    "columns": {
+      "text": "Colunas",
+      "number": "Número de Colunas"
+    },
+    "tag": "Tag",
+    "callout": "Destaque",
+    "mention": "Menção",
+    "bookmark": {
+      "text": "Marcador",
+      "set": "Definir marcadores",
+      "ok": "Confirmado",
+      "textName": "Nome do marcador",
+      "placeholder": "Por favor, insira o nome do marcador...",
+      "show": "Mostrar marcadores",
+      "actions": "Ações",
+      "delete": "Excluir marcador",
+      "emptyError": "Por favor, insira o nome do marcador ou selecione um marcador!"
+    },
+    "symbol": "Símbolo",
+    "template": "Modelo",
+    "textBox": "Caixa de Texto",
+    "toc": "Mapa do Documento",
+    "video": "Vídeo",
+    "web": {
+      "text": "Página da Web",
+      "insert": "Inserir",
+      "title": "Inserir Página da Web",
+      "tip": "Algumas páginas da web podem não suportar incorporação.",
+      "type": "Tipo de Link:",
+      "url": "URL da Página:",
+      "placeholder": "Insira um endereço da web, começando com http:// ou https://"
+    },
+    "footnote": "Nota de Rodapé"
+  },
+  "table": {
+    "addColumnAfter": "Inserir Coluna à Direita",
+    "addColumnBefore": "Inserir Coluna à Esquerda",
+    "addRowAfter": "Inserir Linha Abaixo",
+    "addRowBefore": "Inserir Linha Acima",
+    "borderColor": "Cor da Borda",
+    "cellAlign": {
+      "text": "Alinhamento",
+      "tip": "Alinhamento da Célula",
+      "lt": "Superior Esquerda",
+      "ct": "Superior Centro",
+      "rt": "Superior Direita",
+      "jt": "Superior Justificado",
+      "lm": "Meio Esquerda",
+      "cm": "Meio Centro",
+      "rm": "Meio Direita",
+      "jm": "Meio Justificado",
+      "lb": "Inferior Esquerda",
+      "cb": "Inferior Centro",
+      "rb": "Inferior Direita",
+      "jb": "Inferior Justificado"
+    },
+    "cellBgColor": {
+      "text": "Fundo",
+      "tip": "Cor de Fundo da Célula"
+    },
+    "deleteColumn": {
+      "text": "Excluir Coluna",
+      "title": "Excluir Coluna da Tabela",
+      "message": "Esta operação excluirá a coluna da tabela selecionada. Continuar?",
+      "delete": "Excluir Agora",
+      "success": "Excluído com Sucesso"
+    },
+    "deleteRow": {
+      "text": "Excluir Linha",
+      "title": "Excluir Linha da Tabela",
+      "message": "Esta operação excluirá a linha da tabela selecionada. Continuar?",
+      "delete": "Excluir Agora",
+      "success": "Excluído com Sucesso"
+    },
+    "delete": {
+      "text": "Excluir Tabela",
+      "title": "Excluir Tabela Atual",
+      "message": "Esta operação excluirá a tabela selecionada. Continuar?",
+      "delete": "Excluir Agora",
+      "success": "Excluído com Sucesso"
+    },
+    "fix": {
+      "text": "Corrigir Tabela",
+      "tip": "Clique para corrigir a tabela automaticamente quando estiver desordenada"
+    },
+    "insert": {
+      "text": "Inserir Tabela",
+      "tip": "Inserir Nova Tabela",
+      "property": "Propriedades da Tabela",
+      "withHeader": "Incluir Cabeçalho",
+      "rows": "Número de Linhas:",
+      "cols": "Número de Colunas:",
+      "create": "Criar Tabela"
+    },
+    "mergeCells": "Mesclar Células",
+    "nextCell": "Próxima Célula",
+    "prevCell": "Célula Anterior",
+    "splitCell": "Dividir Célula",
+    "toggleHeaderCell": "Célula de Cabeçalho",
+    "toggleHeaderRow": "Linha de Cabeçalho",
+    "toggleHeaderColumn": "Coluna de Cabeçalho"
+  },
+  "tools": {
+    "barcode": {
+      "text": "Código de Barras",
+      "edit": "Editar Código de Barras",
+      "title": "Código de Barras",
+      "format": "Formato",
+      "font": "Estilo da Fonte",
+      "lineColor": "Cor do Código e Texto",
+      "bgColor": "Cor de Fundo do Código",
+      "more": "Mais",
+      "width": "Largura:",
+      "height": "Altura:",
+      "margin": "Margem:",
+      "displayValue": "Exibir Texto",
+      "displayValueText": "Mostrar Texto",
+      "textContent": "Conteúdo do Texto:",
+      "textContentTip": "Substitui o texto do conteúdo do código",
+      "textPosition": "Posição do Texto:",
+      "top": "Superior",
+      "bottom": "Inferior",
+      "textMargin": "Distância Vertical:",
+      "fontSize": "Tamanho da Fonte:",
+      "placeholder": "Insira o conteúdo para converter em código de barras",
+      "error": "Sua entrada pode não estar em conformidade com as restrições do padrão de código de barras atual, por favor verifique.",
+      "preview": "Visualizar",
+      "renderError": "Nenhuma visualização disponível",
+      "notEmpty": "O conteúdo do código de barras não pode estar vazio"
+    },
+    "chineseCase": {
+      "text": "Maiúsculas/Minúsculas (Chinês)",
+      "tip": "Conversão de Maiúsculas/Minúsculas em Chinês"
+    },
+    "math": {
+      "text": "Matemática",
+      "insert": "Inserir Matemática LaTeX",
+      "edit": "Editar Matemática LaTeX",
+      "update": "Atualizar Matemática",
+      "inline": "Matemática em Linha",
+      "block": "Bloco de Matemática",
+      "placeholder": "Insira o LaTeX ou selecione à direita",
+      "preview": "Área de Visualização Matemática",
+      "template": "Modelos Matemáticos",
+      "cancel": "Cancelar",
+      "confirm": "Inserir Matemática"
+    },
+    "diagrams": {
+      "text": "Diagrama",
+      "edit": "Editar Diagrama",
+      "loading": "Carregando..."
+    },
+    "mermaid": {
+      "text": "Mermaid",
+      "edit": "Editar Mermaid",
+      "theme": "Selecionar Tema",
+      "themes": {
+        "default": "Tema Padrão",
+        "base": "Tema Simples",
+        "dark": "Tema Escuro",
+        "forest": "Tema Floresta",
+        "neutral": "Tema Neutro"
+      },
+      "copy": "Copiar Código",
+      "clear": "Limpar Código",
+      "copied": "Código copiado para a área de transferência",
+      "placeholder": "Insira ou cole o código Mermaid",
+      "preview": "Visualizar",
+      "notEmpty": "O conteúdo Mermaid não pode estar vazio",
+      "codeEmpty": "O código Mermaid não pode estar vazio",
+      "notLoaded": "O Mermaid ainda está carregando",
+      "keepSize": "Manter Tamanho Original",
+      "renderError": "Erro de sintaxe no gráfico"
+    },
+    "echarts": {
+      "text": "Gráfico",
+      "add": "Criar um novo gráfico",
+      "edit": "Alterar Gráfico",
+      "source": "Modo Avançado",
+      "visualization": "Modo Básico",
+      "placeholder": "Por favor, insira ou cole os dados no formato echarts",
+      "sourceerror": "A estrutura do Echarts está incorreta, por favor confirme!",
+      "sourceerror2": "Estrutura do Echarts incorreta ou indefinida!",
+      "dataGrid": "Grade de Dados",
+      "setting": "Configurações",
+      "settingError": "Por favor, confirme se a visualização é exibida corretamente!",
+      "set": {
+        "bar": "Barra",
+        "line": "Linha",
+        "pie": "Pizza",
+        "top": "Superior",
+        "bottom": "Inferior",
+        "left": "Esquerda",
+        "center": "Centro",
+        "right": "Direita",
+        "horizontal": "Horizontal",
+        "vertical": "Vertical",
+        "smooth": "Suave",
+        "seriesType": "Tipo de gráfico",
+        "legend": "Mostrar Legenda",
+        "legendorient": "Layout da legenda",
+        "legendlocation": "Legenda vertical",
+        "legendleft": "Legenda horizontal",
+        "titleText": "Título do gráfico",
+        "titleTextPlaceholder": "Por favor, insira um nome para o título...",
+        "titleleft": "Posição do Título"
+      }
+    },
+    "mindMap": "Mapa Mental",
+    "qrcode": {
+      "text": "QR Code",
+      "edit": "Editar QR Code",
+      "level": "Nível de Correção de Erro do QR Code",
+      "levelL": "Baixo",
+      "levelM": "Médio",
+      "levelQ": "Quartil",
+      "levelH": "Alto",
+      "padding": "Preenchimento:",
+      "paddingTip": "Preenchimento de espaço em branco",
+      "width": "Tamanho:",
+      "widthTip": "Tamanho do QR Code em pixels",
+      "color": "Cor do QR Code",
+      "bgColor": "Cor de Fundo",
+      "placeholder": "Insira ou cole o conteúdo para converter em QR Code",
+      "preview": "Visualizar",
+      "renderError": "Falha na geração do QR Code",
+      "notEmpty": "O conteúdo do QR Code não pode estar vazio"
+    },
+    "signature": {
+      "text": "Assinatura Eletrônica",
+      "title": "Inserir Assinatura Eletrônica",
+      "clear": "Limpar",
+      "lineWidth": "Espessura da Caneta",
+      "lineColor": "Cor da Caneta",
+      "smooth": "Mostrar Traços do Pincel",
+      "reset": "Redefinir Opções",
+      "tip": "Por favor, assine nesta área",
+      "notEmpty": "Nenhuma assinatura detectada"
+    }
+  },
+  "page": {
+    "bg": {
+      "text": "Fundo",
+      "custom": "Fundo de Página Personalizado",
+      "default": "Padrão",
+      "color1": "Verde\nConfortável",
+      "color2": "Amarelo\nElegante",
+      "color3": "Azul\nNublado",
+      "color4": "Azul Céu",
+      "color5": "Preto\nNoite Escura"
+    },
+    "breakMarks": "Quebras de Linha",
+    "break": "Quebra de Página",
+    "lineNumber": "Números de Linha",
+    "margin": "Margens",
+    "orientation": {
+      "text": "Orientação",
+      "landscape": "Paisagem",
+      "portrait": "Retrato"
+    },
+    "preview": "Apresentação",
+    "size": {
+      "text": "Tamanho",
+      "cm": "CM",
+      "custom": "Configurações Personalizadas"
+    },
+    "watermark": {
+      "text": "Marca d'água",
+      "fontFamily": "Fonte da Marca d'água",
+      "fontSize": "Tamanho da Marca d'água",
+      "fontColor": "Cor da Marca d'água",
+      "content": "Texto da Marca d'água",
+      "type": "Estilo da Marca d'água",
+      "compact": "Compacta",
+      "spacious": "Espaçada",
+      "clear": "Remover Marca d'água"
+    }
+  },
+  "view": {
+    "zoom": "Zoom",
+    "zoomOriginal": "Tamanho Original",
+    "zoomAuto": "Ajustar à Tela",
+    "theme": "Tema",
+    "themeLight": "Modo Claro",
+    "themeDark": "Modo Escuro",
+    "skin": "Aparência",
+    "skinDefault": "Padrão",
+    "skinModern": "Moderno",
+    "locale": "Idioma"
+  },
+  "export": {
+    "embed": {
+      "text": "Incorporar",
+      "title": "Código de Incorporação",
+      "tip": "Após copiar, ajuste manualmente a largura e altura do iframe para melhor visualização.",
+      "copy": "Copiar",
+      "copied": "Código copiado para a área de transferência"
+    },
+    "image": {
+      "text": "Imagem",
+      "jpg": "JPG",
+      "png": "PNG",
+      "error": {
+        "title": "Mensagem de Erro",
+        "message": "Falha ao exportar a imagem, por favor tente novamente ou recarregue a página."
+      }
+    },
+    "share": {
+      "text": "Compartilhar",
+      "tip": "Copie o link e envie para quem você deseja compartilhar.",
+      "copy": "Copiar Link",
+      "copied": "Link copiado para a área de transferência"
+    },
+    "pdf": {
+      "text": "Documento PDF",
+      "title": "Exportar Documento PDF",
+      "message": "Antes de exportar o documento PDF, certifique-se de que todas as imagens nas páginas terminaram de carregar. Em seguida, na caixa de diálogo de impressão, selecione 'Salvar como PDF' na opção de impressora e clique no botão 'Salvar'. Para garantir que todo o conteúdo seja exibido corretamente, marque a opção 'Gráficos de plano de fundo' na caixa de diálogo de impressão e defina as 'Margens' como 'Nenhuma'.",
+      "confirm": "Eu Entendi"
+    },
+    "text": "Texto"
+  },
+  "list": {
+    "bullet": {
+      "text": "Lista com Marcadores",
+      "disc": "Círculo Preenchido",
+      "circle": "Círculo Vazio",
+      "square": "Quadrado Preenchido"
+    },
+    "ordered": {
+      "text": "Lista Numerada",
+      "property": "Propriedades da Lista",
+      "startAt": "Número Inicial:",
+      "decimal": "Números",
+      "decimalLeadingZero": "Números com Zero à Esquerda",
+      "lowerRoman": "Números Romanos em Minúsculas",
+      "upperRoman": "Números Romanos em Maiúsculas",
+      "lowerLatin": "Alfabeto em Minúsculas",
+      "upperLatin": "Alfabeto em Maiúsculas",
+      "tradChineseInformal": "Contagem Chinesa Tradicional",
+      "simpChineseFormal": "Contagem Chinesa Formal Maiúscula"
+    },
+    "task": {
+      "text": "Lista de Tarefas",
+      "split": "Adicionar Tarefa",
+      "sink": "Converter para Subtarefa",
+      "lift": "Remover como Tarefa"
+    }
+  },
+  "colorPicker": {
+    "default": "Cor Padrão",
+    "standard": "Cores Padrão",
+    "recent": "Usadas Recentemente",
+    "more": "Mais Cores"
+  },
+  "blockMenu": {
+    "insert": "Inserir Conteúdo",
+    "template": "Inserir Modelo",
+    "common": "Ações comuns",
+    "clearFormat": "Limpar formatação",
+    "duplicate": "Duplicar",
+    "copy": "Copiar",
+    "cut": "Recortar",
+    "delete": "Excluir"
+  },
+  "bubbleMenu": {
+    "code": {
+      "copy": {
+        "text": "Copiar Código",
+        "success": "Código copiado para a área de transferência"
+      },
+      "languages": "Linguagens",
+      "lineNumbers": "Mostrar Números de Linha",
+      "themes": {
+        "text": "Tema",
+        "light": "Tema Claro",
+        "dark": "Tema Escuro"
+      },
+      "wordWrap": "Quebra de Palavra"
+    },
+    "file": {
+      "autoWidth": "Ajustar Largura",
+      "download": "Baixar Arquivo"
+    },
+    "image": {
+      "open": "Abrir em nova janela",
+      "draggable": "Imagem Flutuante",
+      "flipX": "Inverter Horizontalmente",
+      "flipY": "Inverter Verticalmente",
+      "preview": "Visualizar Imagem",
+      "proportion": "Bloquear Proporção da Imagem",
+      "reset": "Redefinir Posição da Imagem",
+      "rotateCC": "Girar no Sentido Anti-Horário 90°",
+      "rotateC": "Girar no Sentido Horário 90°",
+      "convertToNode": "Converter para Imagem em Bloco",
+      "convertToInline": "Converter para Imagem em Linha"
+    },
+    "textBox": {
+      "background": "Cor de Fundo",
+      "border": "Configurações da Borda",
+      "borderColor": "Cor da Borda",
+      "borderStyle": "Estilo da Borda",
+      "noBorder": "Sem Borda",
+      "writingMode": "Modo de Escrita",
+      "horizontalTb": "Texto Horizontal",
+      "verticalLr": "Texto Vertical (Esquerda para Direita)",
+      "verticalRl": "Texto Vertical (Direita para Esquerda)"
+    },
+    "callout": {
+      "removeEmoji": "Remover Emoji",
+      "background": "Cor de Fundo"
+    },
+    "tag": {
+      "placeholder": "Nome da Tag",
+      "content": "Nome da Tag",
+      "background": "Cor de Fundo",
+      "color": "Cor do Texto",
+      "delete": "Excluir Tag"
+    },
+    "webpage": {
+      "clickable": "Alternar Clicável",
+      "open": "Abrir em uma nova janela"
+    },
+    "toFile": "Converter para Arquivo",
+    "delete": "Excluir"
+  },
+  "pageOptions": {
+    "title": "Configurações da Página",
+    "size": {
+      "text": "Tamanho da Página",
+      "width": "Largura:",
+      "height": "Altura:",
+      "custom": "Personalizado"
+    },
+    "margin": {
+      "text": "Margens da Página",
+      "default": "Padrão",
+      "narrow": "Estreita",
+      "moderate": "Moderada",
+      "wide": "Larga",
+      "top": "Superior:",
+      "right": "Direita:",
+      "bottom": "Inferior:",
+      "left": "Esquerda:"
+    }
+  },
+  "document": {
+    "untitled": "Documento sem Título",
+    "headingPlaceholder": "Digite o Título"
+  },
+  "search": {
+    "text": "Pesquisar",
+    "title": "Pesquisar e Substituir",
+    "searchText": "Pesquisar...",
+    "replaceText": "Substituir...",
+    "caseSensitive": "Diferenciar Maiúsculas de Minúsculas",
+    "search": "Pesquisar",
+    "replace": "Substituir",
+    "replaceAll": "Substituir Tudo"
+  },
+  "toc": {
+    "title": "Mapa do Documento",
+    "show": "Mostrar Mapa do Documento",
+    "hide": "Ocultar Mapa do Documento",
+    "empty": "Nenhum Mapa do Documento Disponível"
+  },
+  "spellcheck": {
+    "enable": "Habilitar Verificação Ortográfica",
+    "disable": "Desabilitar Verificação Ortográfica"
+  },
+  "shortcut": {
+    "title": "Atalhos de Teclado",
+    "text": "Texto",
+    "commonlyUsed": "Comum",
+    "copy": "Copiar",
+    "paste": "Colar",
+    "pasteAsText": "Colar como Texto Simples",
+    "paragraph": "Inserir Novo Parágrafo",
+    "hardBreak": "Quebra de Linha",
+    "format": "Formatação",
+    "page": "Página",
+    "pageZoomIn": "Aumentar Zoom",
+    "pageZoomOut": "Diminuir Zoom",
+    "pageZoomReset": "Redefinir Zoom para o Padrão",
+    "pageAutoWidth": "Ajustar à Melhor Largura",
+    "markdown": "Markdown"
+  },
+  "changeLocale": {
+    "title": "Mudar Idioma",
+    "message": "Após alterar o idioma, a página será recarregada. Por favor, salve o conteúdo do seu documento primeiro. Tem certeza de que deseja mudar agora?",
+    "confirm": "Mudar"
+  },
+  "resetAll": {
+    "title": "Redefinir Configurações",
+    "message": "Esta ação limpará todas as configurações do editor e o conteúdo atual, e recarregará a página. Recomenda-se salvar seu conteúdo antes de redefinir. Tem certeza de que deseja redefinir agora?",
+    "reset": "Redefinir"
+  },
+  "about": {
+    "title": "Sobre o Umo Editor",
+    "poweredBy": "Desenvolvido por <a href=\"https://www.umodoc.com/en\" target=\"_blank\">Umodoc</a>",
+    "version": "Versão",
+    "openSource": "Edição de código aberto",
+    "documentation": "Documentação",
+    "thanks": "Obrigado a todos os colaboradores",
+    "next": "Saiba mais sobre o mais poderoso <a href=\"https://www.umodoc.com/business\" target=\"_blank\">Umo Editor Next</a>"
+  },
+  "layout": {
+    "web": "Visualização da Web",
+    "page": "Visualização de Página"
+  },
+  "wordCount": {
+    "characters": "Caracteres",
+    "title": "Estatísticas do Documento",
+    "input": "Caracteres Digitados",
+    "selection": "Caracteres Selecionados",
+    "limit": "Limite de Caracteres"
+  },
+  "preview": {
+    "title": "Apresentação",
+    "disable": "Sair da Apresentação",
+    "countdown": {
+      "title": "Definir Contagem Regressiva",
+      "select": "Selecionar",
+      "selectTip": "Selecione a duração da contagem regressiva",
+      "custom": "Personalizado",
+      "hours": "Horas",
+      "minutes": "Minutos",
+      "seconds": "Segundos",
+      "whenEnd": "Ao Terminar",
+      "showEndMessage": "Mostrar mensagem de fim",
+      "exitPreview": "Sair do modo de apresentação",
+      "start": "Iniciar",
+      "cancel": "Cancelar",
+      "1hour": "1 Hora",
+      "45minutes": "45 Minutos",
+      "30minutes": "30 Minutos",
+      "15minutes": "15 Minutos",
+      "10minutes": "10 Minutos",
+      "5minutes": "5 Minutos",
+      "error": "Por favor, defina um tempo de contagem regressiva válido",
+      "endCountdown": "A contagem regressiva terminou",
+      "remaining": "Tempo restante"
+    },
+    "laserPointer": "Apontador Laser"
+  },
+  "fullscreen": {
+    "title": "Tela Cheia",
+    "disable": "Sair da Tela Cheia"
+  },
+  "zoom": {
+    "zoomIn": "Aumentar Zoom",
+    "zoomOut": "Diminuir Zoom",
+    "level": "Nível de Zoom: ",
+    "autoWidth": "Ajustar à Melhor Largura",
+    "autoWidthError": "Erro ao calcular a largura automática da página",
+    "reset": "Voltar para 100%"
+  },
+  "node": {
+    "codeBlock": {
+      "menu": "Menu"
+    },
+    "image": {
+      "loading": "Carregando imagem...",
+      "error": "Falha ao carregar a imagem"
+    },
+    "textBox": {
+      "tip": "Dê um duplo clique para editar"
+    }
+  },
+  "file": {
+    "uploading": "Enviando arquivo...",
+    "download": "Baixar Arquivo",
+    "limit": "O arquivo \"{filename}\" excede o limite de {size}MB",
+    "notAllow": {
+      "title": "Mensagem de Erro",
+      "message": "A inserção deste tipo de arquivo não é permitida no documento atual."
+    }
+  },
+  "callout": {
+    "placeholder": "Por favor, insira o conteúdo"
+  },
+  "mention": {
+    "noResult": "Nenhum resultado"
+  },
+  "save": {
+    "text": "Salvar",
+    "saved": "Salvo",
+    "unsaved": "Não salvo",
+    "network": "Status da Rede:",
+    "online": "Online",
+    "offline": "Offline",
+    "saving": "Salvando documento...",
+    "savedAt": "Salvo em:",
+    "savedAtText": "Salvo em {time}",
+    "failed": "Falha ao salvar o documento",
+    "success": "Documento salvo com sucesso",
+    "error": "Erro ao salvar o documento",
+    "cache": {
+      "text": "Restaurar do Cache",
+      "error": {
+        "title": "Mensagem de Erro",
+        "message": "Não há conteúdo no cache!"
+      }
+    }
+  },
+  "print": {
+    "text": "Imprimir",
+    "title": "Imprimir Documento",
+    "message": "Antes de imprimir o documento, certifique-se de que todas as imagens nas páginas terminaram de carregar. Para garantir que todo o conteúdo seja exibido corretamente, marque a opção 'Gráficos de plano de fundo' na caixa de diálogo de impressão e defina as 'Margens' como 'Nenhuma'.",
+    "confirm": "Imprimir Agora"
+  },
+  "dialog": {
+    "cancel": "Cancelar"
+  },
+  "copy": {
+    "notSupported": "O navegador não suporta a função de cópia",
+    "copyFailed": "Falha na cópia"
+  },
+  "officePaste": {
+    "imagePlaceholder": "[Imagem]",
+    "dialog": {
+      "title": "Aviso",
+      "body": "O conteúdo da área de transferência foi colado, mas as imagens incluídas não foram processadas corretamente. Por favor, copie e substitua manualmente as imagens não processadas no documento."
+    }
+  }
+}

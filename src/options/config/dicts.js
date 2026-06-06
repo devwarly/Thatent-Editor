@@ -1,62 +1,65 @@
 const fonts = [
   {
-    label: { en_US: 'Default Font', zh_CN: '默认字体' },
+    label: { en_US: 'Default Font', zh_CN: '默认字体', pt_BR: 'Fonte Padrão' },
     value: null,
   },
   {
-    label: { en_US: 'Noto Sans SC', zh_CN: '思源黑体' },
+    label: { en_US: 'Noto Sans SC', zh_CN: '思源黑体', pt_BR: 'Noto Sans SC' },
     value: 'Noto Sans SC',
     url: 'https://fonts.gstatic.com/s/notosanssc/v40/k3kXo84MPvpLmixcA63oeALhLIiP-Q-87KaAaH7rzeAODp22mF0qmF4CSjmPC6A0Rg5g1igg1w.4.woff2',
     format: 'woff2',
   },
   {
-    label: { en_US: 'Noto Serif SC', zh_CN: '思源宋体' },
+    label: { en_US: 'Noto Serif SC', zh_CN: '思源宋体', pt_BR: 'Noto Serif SC' },
     value: 'Noto Serif SC',
     url: 'https://fonts.gstatic.com/s/notoserifsc/v35/H4cyBXePl9DZ0Xe7gG9cyOj7uK2-n-D2rd4FY7SCqyWv.ttf',
     format: 'truetype',
   },
   {
-    label: { en_US: 'Songti', zh_CN: '宋体' },
+    label: { en_US: 'Songti', zh_CN: '宋体', pt_BR: 'Songti' },
     value: 'SimSun',
   },
   {
-    label: { en_US: 'Heiti', zh_CN: '黑体' },
+    label: { en_US: 'Heiti', zh_CN: '黑体', pt_BR: 'Heiti' },
     value: 'SimHei',
   },
   {
-    label: { en_US: 'Kaiti', zh_CN: '楷体' },
+    label: { en_US: 'Kaiti', zh_CN: '楷体', pt_BR: 'Kaiti' },
     value: 'KaiTi',
   },
   {
     label: {
       en_US: 'Kaiti GB2312',
       zh_CN: '楷体_GB2312',
+      pt_BR: 'Kaiti GB2312',
     },
     value: 'KaiTi_GB2312',
   },
   {
-    label: { en_US: 'Fangsong', zh_CN: '仿宋' },
+    label: { en_US: 'Fangsong', zh_CN: '仿宋', pt_BR: 'Fangsong' },
     value: 'FangSong',
   },
   {
     label: {
       en_US: 'Fangsong GB2312',
       zh_CN: '仿宋_GB2312',
+      pt_BR: 'Fangsong GB2312',
     },
     value: 'FangSong_GB2312',
   },
   {
-    label: { en_US: 'STSong', zh_CN: '华文宋体' },
+    label: { en_US: 'STSong', zh_CN: '华文宋体', pt_BR: 'STSong' },
     value: 'STSong',
   },
   {
-    label: { en_US: 'STFangsong', zh_CN: '华文仿宋' },
+    label: { en_US: 'STFangsong', zh_CN: '华文仿宋', pt_BR: 'STFangsong' },
     value: 'STFangsong',
   },
   {
     label: {
       en_US: 'FZ Fangsong Simplified',
       zh_CN: '方正仿宋简体',
+      pt_BR: 'FZ Fangsong Simples',
     },
     value: 'FZFangSong-Z02S',
   },
@@ -64,6 +67,7 @@ const fonts = [
     label: {
       en_US: 'FZ Xiaobiao Song',
       zh_CN: '方正小标宋',
+      pt_BR: 'FZ Xiaobiao Song',
     },
     value: 'FZXiaoBiaoSong-B05S',
   },
@@ -71,35 +75,36 @@ const fonts = [
     label: {
       en_US: 'Microsoft Yahei',
       zh_CN: '微软雅黑',
+      pt_BR: 'Microsoft Yahei',
     },
     value: 'Microsoft Yahei',
   },
   {
-    label: { en_US: 'PingFang SC', zh_CN: '苹方' },
+    label: { en_US: 'PingFang SC', zh_CN: '苹方', pt_BR: 'PingFang SC' },
     value: 'PingFang SC',
   },
   {
-    label: { en_US: 'Hiragino Sans GB', zh_CN: '冬青黑体简体中文' },
+    label: { en_US: 'Hiragino Sans GB', zh_CN: '冬青黑体简体中文', pt_BR: 'Hiragino Sans GB' },
     value: 'Hiragino Sans GB',
   },
   {
-    label: { en_US: 'DengXian', zh_CN: '等线' },
+    label: { en_US: 'DengXian', zh_CN: '等线', pt_BR: 'DengXian' },
     value: 'DengXian',
   },
   {
-    label: { en_US: 'DengXian Light', zh_CN: '等线 Light' },
+    label: { en_US: 'DengXian Light', zh_CN: '等线 Light', pt_BR: 'DengXian Light' },
     value: 'DengXian Light',
   },
   {
-    label: { en_US: 'YouYuan', zh_CN: '幼圆' },
+    label: { en_US: 'YouYuan', zh_CN: '幼圆', pt_BR: 'YouYuan' },
     value: 'YouYuan',
   },
   {
-    label: { en_US: 'LiSu', zh_CN: '隶书' },
+    label: { en_US: 'LiSu', zh_CN: '隶书', pt_BR: 'LiSu' },
     value: 'LiSu',
   },
   {
-    label: { en_US: 'NSimSun', zh_CN: '新宋体' },
+    label: { en_US: 'NSimSun', zh_CN: '新宋体', pt_BR: 'NSimSun' },
     value: 'NSimSun',
   },
   { label: 'Arial', value: 'Arial' },
@@ -179,13 +184,14 @@ const colors = [
 
 const lineHeights = [
   {
-    label: { en_US: 'Single', zh_CN: '单倍行距' },
+    label: { en_US: 'Single', zh_CN: '单倍行距', pt_BR: 'Simples' },
     value: 1,
   },
   {
     label: {
       en_US: '1.5 Line Spacing',
       zh_CN: '1.5 倍行距',
+      pt_BR: 'Espaçamento 1.5',
     },
     value: 1.5,
   },
@@ -193,23 +199,25 @@ const lineHeights = [
     label: {
       en_US: '1.75 Line Spacing',
       zh_CN: '1.75 倍行距',
+      pt_BR: 'Espaçamento 1.75',
     },
     value: 1.75,
     default: true,
   },
   {
-    label: { en_US: 'Double', zh_CN: '2 倍行距' },
+    label: { en_US: 'Double', zh_CN: '2 倍行距', pt_BR: 'Duplo' },
     value: 2,
   },
   {
     label: {
       en_US: '2.5 Line Spacing',
       zh_CN: '2.5 倍行距',
+      pt_BR: 'Espaçamento 2.5',
     },
     value: 2.5,
   },
   {
-    label: { en_US: 'Triple', zh_CN: '3 倍行距' },
+    label: { en_US: 'Triple', zh_CN: '3 倍行距', pt_BR: 'Triplo' },
     value: 3,
   },
 ]
@@ -219,6 +227,7 @@ const symbols = [
     label: {
       en_US: 'Plain Text',
       zh_CN: '普通文本',
+      pt_BR: 'Texto Simples',
     },
     items: '‹›«»‘’“”‚„¡¿‥…‡‰‱‼⁈⁉⁇©®™§¶⁋',
   },
@@ -226,6 +235,7 @@ const symbols = [
     label: {
       en_US: 'Currency Symbols',
       zh_CN: '货币符号',
+      pt_BR: 'Moedas',
     },
     items: '$€¥£¢₠₡₢₣₤¤₿₥₦₧₨₩₪₫₭₮₯₰₱₲₳₴₵₶₷₸₹₺₻₼₽',
   },
@@ -233,17 +243,19 @@ const symbols = [
     label: {
       en_US: 'Mathematical Symbols',
       zh_CN: '数学符号',
+      pt_BR: 'Matemática',
     },
     items: '<>≤≥–—¯‾°−±÷⁄×ƒ∫∑∞√∼≅≈≠≡∈∉∋∏∧∨¬∩∪∂∀∃∅∇∗∝∠¼½¾',
   },
   {
-    label: { en_US: 'Arrows', zh_CN: '箭头' },
+    label: { en_US: 'Arrows', zh_CN: '箭头', pt_BR: 'Setas' },
     items: '←→↑↓⇐⇒⇑⇓⇠⇢⇡⇣⇤⇥⤒⤓↨',
   },
   {
     label: {
       en_US: 'Latin Script',
       zh_CN: '拉丁语',
+      pt_BR: 'Latim',
     },
     items:
       'ĀāĂăĄąĆćĈĉĊċČčĎďĐđĒēĔĕĖėĘęĚěĜĝĞğĠġĢģĤĥĦħĨĩĪīĬĭĮįİıĲĳĴĵĶķĸĹĺĻļĽľĿŀŁłŃńŅņŇňŉŊŋŌōŎŏŐőŒœŔŕŖŗŘřŚśŜŝŞşŠšŢţŤťŦŧŨũŪūŬŭŮůŰűŲųŴŵŶŷŸŹźŻżŽžſ',
@@ -255,6 +267,7 @@ const emojis = [
     label: {
       en_US: 'Emotions & People',
       zh_CN: '表情与角色',
+      pt_BR: 'Emoções e Pessoas',
     },
     items:
       '😀 😃 😄 😁 😆 😅 🤣 😂 🙂 🙃 😉 😊 😇 🥰 😍 🤩 😘 😗 😚 😙 😋 😛 😜 🤪 😝 🤑 🤗 🤭 🤫 🤔 🤐 🤨 😐 😑 😶 😶‍ 😏 😒 🙄 😬 😮‍ 🤥 😌 😔 😪 🤤 😴 😷 🤒 🤕 🤢 🤮 🤧 🥵 🥶 🥴 😵 😵‍💫 🤯 🤠 🥳 😎 🤓 🧐 😕 😟 🙁 ☹️ 😮 😯 😲 😳 🥺 😦 😧 😨 😰 😥 😢 😭 😱 😖 😣 😞 😓 😩 😫 🥱 😤 😡 😠 🤬 😈 👿 💀 ☠️ 💩 🤡 👹 👺 👻 👽 👾 🤖 👋 🤚 🖐️ ✋ 🖖 👌 🤏 ✌️ 🤞 🤟 🤘 🤙 👈 👉 👆 🖕 👇 ☝️ 👍 👎 ✊ 👊 🤛 🤜 👏 🙌 👐 🤲 🤝 🙏 ✍️ 💅 🤳 💪 🦾 🦿 🦵 🦶 👂 🦻',
@@ -263,6 +276,7 @@ const emojis = [
     label: {
       en_US: 'Animals & Nature',
       zh_CN: '动物与自然',
+      pt_BR: 'Animais e Natureza',
     },
     items:
       '🐵 🐒 🦍 🦧 🐶 🐕 🦮 🐕‍🦺 🐩 🐺 🦊 🦝 🐱 🐈 🐈‍⬛ 🦁 🐯 🐅 🐆 🐴 🐎 🦄 🦓 🦌 🐮 🐂 🐃 🐄 🐷 🐖 🐗 🐽 🐏 🐑 🐐 🐪 🐫 🦙 🦒 🐘 🦏 🦛 🐭 🐁 🐀 🐹 🐰 🐇 🐿️ 🦔 🦇 🐻 🐻‍❄️ 🐨 🐼 🦥 🦦 🦨 🦘 🦡 🐾 🦃 🐔 🐓 🐣 🐤 🐥 🐦 🐧 🕊️ 🦅 🦆 🦢 🦉 🦩 🦚 🦜 🐸 🐊 🐢 🦎 🐍 🐲 🐉 🦕 🦖 🐳 🐋 🐬 🦭 🐟 🐠 🐡 🦈 🐙 🐚 🐌 🦋 🐛 🐜 🐝 🐞 🦗 🕷️ 🕸️ 🦂 🦟 🦠 💐 🌸 💮 🏵️ 🌹 🥀 🌺 🌻 🌼 🌷 🌱 🌲 🌳 🌴 🌵 🌾 🌿 ☘️ 🍀 🍁 🍂 🍃 🌒 🌓 🌔 🌕 🌖 🌗 🌘 🌙 🌚 🌛 🌜 ☀️ 🌝 🌞 🪐 🌟 🌠 🌌 ☁️ ⛅ ⛈️ 🌤️ 🌥️ 🌦️ 🌧️ 🌨️ 🌩️ 🌪️ 🌫️ 🌬️ 🌀 🌈 🌂 ☂️ ☔ ⛱️ ⚡ ❄️ ☃️ ⛄ ☄️ 🔥 💧 🌊',
@@ -271,12 +285,13 @@ const emojis = [
     label: {
       en_US: 'Food & Drink',
       zh_CN: '食物与食品',
+      pt_BR: 'Comidas e Bebidas',
     },
     items:
       '🍇 🍉 🍊 🍋 🍌 🍍 🥭 🍎 🍏 🍐 🍑 🍒 🍓 🥝 🍅 🥥 🥑 🍆 🥔 🥕 🌽 🌶️ 🥬 🥦 🧄 🧅 🍄 🥜 🌰 🍞 🥐 🥖 🥨 🥯 🥞 🧇 🧀 🍖 🍗 🥩 🥓 🍔 🍟 🍕 🌭 🥪 🌮 🌯 🥙 🧆 🥚 🍳 🥘 🍲 🥣 🥗 🍿 🧈 🧂 🥫 🍱 🍘 🍙 🍚 🍛 🍜 🍝 🍠 🍢 🍣 🍤 🍥 🥮 🍡 🥟 🥠 🥡 🦀 🦞 🦐 🦑 🦪 🍦 🍧 🍨 🍩 🍪 🎂 🍰 🧁 🥧 🍫 🍬 🍭 🍮 🍯 🍼 🥛 ☕ 🍵 🍶 🍾 🍷 🍸 🍹 🍺 🍻 🥂 🥃 🥤 🧃 🧉 🧊 🥢 🍽️ 🍴 🥄 🔪 🏺',
   },
   {
-    label: { en_US: 'Activities', zh_CN: '活动' },
+    label: { en_US: 'Activities', zh_CN: '活动', pt_BR: 'Atividades' },
     items:
       '🧧 🎁 🎄 🧨 ✨ 🎈 🎉 🏮 🎗️ 🎟️ 🎫 🎖️ 🏆 🏅 🥇 🥈 🥉 ⚽ ⚾ 🥎 🏀 🏐 🏈 🏉 🎾 🥏 🎳 🏏 🏑 🏒 🥍 🏓 🏸 🥊 🥋 🥅 ⛳ ⛸️ 🎣 🤿 🎽 🎿 🛷 🥌 🎯 🪀 🪁 🎱 🔮 🧿 🎮 🕹️ 🎰 🎲 🧩 🧸 ♟️ 🃏 🀄 🎴 🎭 🖼️ 🎨 🧵 🧶',
   },
@@ -284,22 +299,23 @@ const emojis = [
     label: {
       en_US: 'Travel & Places',
       zh_CN: '旅行与景点',
+      pt_BR: 'Viagem e Lugares',
     },
     items:
       '🚈 🚉 🚊 🚝 🚞 🚋 🚌 🚍 🚎 🚐 🚑 🚒 🚓 🚔 🚕 🚖 🚗 🚘 🚙 🚚 🚛 🚜 🏎️ 🏍️ 🛵 🦽 🦼 🛺 🚲 🛴 🛹 🚏 🛣️ 🛤️ 🛢️ ⛽ 🚨 🚥 🚦 🛑 🚧 ⚓ ⛵ 🛶 🚤 🛳️ ⛴️ 🛥️ 🚢 ✈️ 🛩️ 🛫 🛬 🪂 💺 🚁 🚟 🚠 🚡 🛰️ 🚀 🛸 🛎️ 🧳 🧭 ⌚ ⏰ ⏱️ ⏲️ 🕰️ 🕛 🕧 🕐 🕜 🕑 🕝 🕒 🕞 🕓 🕟 🕔 🕠 🕕 🕡 🕖 🕢 🕗 🕣 🕘 🕤 🕙 🕥 🕚 🕦',
   },
   {
-    label: { en_US: 'Objects', zh_CN: '物品' },
+    label: { en_US: 'Objects', zh_CN: '物品', pt_BR: 'Objetos' },
     items:
       '📔 📕 📖 📗 📘 📙 📚 📒 📃 📜 📄 📰 🗞️ 📑 🔖 🏷️ 💰 🔍 🔎 💴 💵 💶 💷 💸 💳 🧾 💹 ✉️ 📧 📨 📩 📤 📥 📦 📫 📪 📬 📭 📮 🗳️ ✏️ ✒️ 🖋️ 🖊️ 🖌️ 🖍️ 📝 💼 📁 📂 🗂️ 📅 📆 🗒️ 🗓️ 📇 📈 📉 📊 📋 📌 📍 📎 🖇️ 📏 📐 ✂️ 🗃️ 🗄️ 🗑️ 🔒 🔓 🔏 🔐 🔑 🗝️ 🔨 🪓 ⛏️ ⚒️ 🛠️ 🗡️ ⚔️ 🔫 🏹 🛡️ 🔧 🔩 ⚙️ 🗜️ ⚖️ 🦯 🔗 ⛓️ 🧰 🧲 ⚗️ 🧪 🧫 🧬 🔬 🔭 📡 💉 🩸 💊 🩹 🩺 🚪 🛏️ 🛋️ 🪑 🚽 🚿 🛁 🪒 🧴 🧷 🧹 🧺 🧻 🧼 🧽 🧯 🛒 🚬 ⚰️ ⚱️ 💎 🔇 🔈 🔉 🔊 🔔 🔕 🔋 🔌 💻 🖥️ 🖨️ ⌨️ 🖱️ 🖲️ 📷 🧱',
   },
   {
-    label: { en_US: 'Symbols', zh_CN: '符号' },
+    label: { en_US: 'Symbols', zh_CN: '符号', pt_BR: 'Símbolos' },
     items:
       '💡 ✅ ☑️ ✔️ ❌ ❎ ❓ ❗ ❔ ❕ ⌛ ⏳ 💰 🆒 🆕 🆖 🅾️ 🆗 🆘 🈲 🉑 🈸 ⛔ 🚫 📵 ✳️ ✴️ ❇️ 🔟 🔠 🔡 🔢 🔣 🔤 🅰️ 🆎 🅱️ 🆑 🆒 🆓 ℹ️ 🆔 🆕 🆖 🅾️ 🆗 🅿️ 🆘 🆙 🆚 🈁 🈂️ 🔴 🟠 🟡 🟢 🔵 🟣 🟤 ⚫ ⚪ 🟥 🟧 🟨 🟩 🟦 🟪 🟫 🔶 🔷 🔸 🔹 🔺 🔻 💠 🔘 🔳 🔲 💌 💘 💝 💖 💗 💓 💞 💕 💟 ❣️ 💔 🤍 💯 💢 💥 💬 💤 ➰ ➿ 🔅 📴 ➡️ 🔃 🔄 🔙 🔚 🔛 🔝 🔀 🔁 🔂',
   },
   {
-    label: { en_US: 'Flags', zh_CN: '旗帜' },
+    label: { en_US: 'Flags', zh_CN: '旗帜', pt_BR: 'Bandeiras' },
     items: '🏁 🚩 🏴 🏳️ 🏳️‍🌈‍',
   },
 ]
@@ -313,6 +329,7 @@ const pageSizes = [
     label: {
       en_US: 'No. 5 Envelope',
       zh_CN: '5号信封',
+      pt_BR: 'Envelope Nº 5',
     },
     width: 10.9,
     height: 12.9,
@@ -321,6 +338,7 @@ const pageSizes = [
     label: {
       en_US: 'No. 6 Envelope',
       zh_CN: '6号信封',
+      pt_BR: 'Envelope Nº 6',
     },
     width: 11.9,
     height: 22.9,
@@ -329,6 +347,7 @@ const pageSizes = [
     label: {
       en_US: 'No. 7 Envelope',
       zh_CN: '7号信封',
+      pt_BR: 'Envelope Nº 7',
     },
     width: 16.1,
     height: 22.8,
@@ -337,6 +356,7 @@ const pageSizes = [
     label: {
       en_US: 'No. 9 Envelope',
       zh_CN: '9号信封',
+      pt_BR: 'Envelope Nº 9',
     },
     width: 22.8,
     height: 32.3,
@@ -345,6 +365,7 @@ const pageSizes = [
     label: {
       en_US: 'Legal Paper',
       zh_CN: '法律用纸',
+      pt_BR: 'Papel Ofício',
     },
     width: 21.5,
     height: 33.5,
@@ -353,6 +374,7 @@ const pageSizes = [
     label: {
       en_US: 'Letter Paper',
       zh_CN: '信纸',
+      pt_BR: 'Papel Carta',
     },
     width: 21.5,
     height: 27.9,
