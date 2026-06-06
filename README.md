@@ -2,6 +2,9 @@
 <a href="https://www.umodoc.com/en" target="_blank"><img src="https://unpkg.com/@umoteam/editor-external@latest/static/logo.svg" alt="umodoc.com" width="280" /></a>
 </p>
 
+<h2>Instalar em: </h2>
+<p>npm install github:devwarly/Thatent-Editor</p>
+
 <p style="text-align: center;">
 <a href="https://github.com/umodoc/editor/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/npm/l/@umoteam/editor" /></a>
 <a href="https://www.npmjs.com/package/@umoteam/editor" target="_blank"><img src="https://img.shields.io/npm/v/@umoteam/editor" /></a>
