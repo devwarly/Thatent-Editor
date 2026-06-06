@@ -41,12 +41,15 @@
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/umo-editor.js"
+        "import": "./dist/umo-editor.js",
+        "require": "./dist/umo-editor.js",
+        "default": "./dist/umo-editor.js"
     },
     "./style": {
-      "import": "./dist/umo-editor.css"
+        "import": "./dist/umo-editor.css",
+        "default": "./dist/umo-editor.css"
     }
-  },
+},
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 9000 --open --force",
