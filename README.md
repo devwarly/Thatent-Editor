@@ -107,13 +107,13 @@ For more details, see [Features](https://dev.umodoc.com/en/docs/editor/features)
 
 ## Browser Support
 
-| Browser                | Version | Support |
+| Browser                | Version | Support |
 | ---------------------- | ------- | :-----: |
-| Google Chrome          | Latest  |   ✅    |
-| Firefox                | Latest  |   ✅    |
-| Safari                 | Latest  |   ✅    |
-| Microsoft Edge         | Latest  |   ✅    |
-| Internet Explorer (IE) | All     |   ❌    |
+| Google Chrome          | Latest  |   ✅    |
+| Firefox                | Latest  |   ✅    |
+| Safari                 | Latest  |   ✅    |
+| Microsoft Edge         | Latest  |   ✅    |
+| Internet Explorer (IE) | All     |   ❌    |
 
 ## Environment Support
 
@@ -183,3 +183,6 @@ Umo Editor is licensed under the [MIT License](https://github.com/umodoc/editor/
 If you do not wish to retain the copyright information, please contact us or consider purchasing the commercial version: [Umo Editor Next](https://dev.umodoc.com/en/docs/next).
 
 This documentation is published under the [CC BY-NC-SA 4.0 DEED License](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
+
+
+de esse markedown atualizado identico a esse mas dizendo que é a versão do editor do Thatent etc
