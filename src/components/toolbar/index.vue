@@ -147,6 +147,7 @@ const options = inject('options')
 const $toolbar = useState('toolbar', options)
 let statusPopup = $ref(false)
 const online = useOnline()
+console.log($toolbar.mode)
 
 // 工具栏菜单
 const defaultToolbarMenus = [
