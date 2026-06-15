@@ -90,9 +90,7 @@
           <div class="umo-virtual-group">
             <menus-toolbar-insert-text-box v-if="!disableMenu('text-box')" />
             <menus-toolbar-insert-details v-if="!disableMenu('details')" />
-            <menus-toolbar-insert-code-block
-              v-if="!disableMenu('code-block')"
-            />
+            
             <menus-toolbar-insert-symbol v-if="!disableMenu('symbol')" />
             
             <menus-toolbar-insert-emoji v-if="!disableMenu('emoji')" />
@@ -100,8 +98,6 @@
           <div class="umo-virtual-group">
             <menus-toolbar-insert-tag v-if="!disableMenu('tag')" />
             <menus-toolbar-insert-columns v-if="!disableMenu('columns')" />
-            <menus-toolbar-insert-callout v-if="!disableMenu('callout')" />
-            <menus-toolbar-insert-mention v-if="!disableMenu('mention')" />
             <menus-toolbar-insert-option-box
               v-if="!disableMenu('option-box')"
             />
@@ -111,7 +107,6 @@
               v-if="!disableMenu('hard-break')"
             />
             <menus-toolbar-insert-hr v-if="!disableMenu('hr')" />
-            <menus-toolbar-insert-bookmark v-if="!disableMenu('bookmark')" />
             <menus-toolbar-insert-footnote v-if="!disableMenu('footnote')" />
           </div>
           

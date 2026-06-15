@@ -33,21 +33,6 @@
           @menu-click="insertImage"
         />
       </t-dropdown-item>
-      <t-dropdown-item v-if="!disableMenu('video')">
-        <menus-toolbar-insert-video :huge="false" :tooltip="false" />
-      </t-dropdown-item>
-      <t-dropdown-item v-if="!disableMenu('audio')">
-        <menus-toolbar-insert-audio :huge="false" :tooltip="false" />
-      </t-dropdown-item>
-      <t-dropdown-item v-if="!disableMenu('file')">
-        <menus-toolbar-insert-file :huge="false" :tooltip="false" />
-      </t-dropdown-item>
-      <t-dropdown-item v-if="!disableMenu('details')">
-        <menus-toolbar-insert-details :huge="false" :tooltip="false" />
-      </t-dropdown-item>
-      <t-dropdown-item v-if="!disableMenu('callout')">
-        <menus-toolbar-insert-callout :huge="false" :tooltip="false" />
-      </t-dropdown-item>
       <t-dropdown-item v-if="!disableMenu('hr')">
         <menus-button
           ico="hr"
@@ -67,18 +52,6 @@
       <t-dropdown-item v-if="!disableMenu('web-page')">
         <menus-toolbar-insert-web-page :huge="false" :tooltip="false" />
       </t-dropdown-item>
-      <t-dropdown-item v-if="!disableMenu('qrcode')">
-        <menus-toolbar-tools-qrcode :huge="false" :tooltip="false" />
-      </t-dropdown-item>
-      <t-dropdown-item v-if="!disableMenu('barcode')">
-        <menus-toolbar-tools-barcode :huge="false" :tooltip="false" />
-      </t-dropdown-item>
-      <t-dropdown-item v-if="!disableMenu('signature')">
-        <menus-toolbar-tools-signature :huge="false" :tooltip="false" />
-      </t-dropdown-item>
-      <t-dropdown-item v-if="!disableMenu('diagrams')">
-        <menus-toolbar-tools-diagrams :huge="false" :tooltip="false" />
-      </t-dropdown-item>
       <t-dropdown-item v-if="!disableMenu('math')">
         <menus-toolbar-tools-math :huge="false" :tooltip="false" />
       </t-dropdown-item>
@@ -92,27 +65,7 @@
       <t-dropdown-item v-if="!disableMenu('mermaid')">
         <menus-toolbar-tools-mermaid :huge="false" :tooltip="false" />
       </t-dropdown-item>
-      <t-dropdown-item v-if="options.templates.length > 0">
-        <menus-button
-          ico="template"
-          :text="t('blockMenu.template')"
-          :tooltip="false"
-        />
-        <t-dropdown-menu
-          overlay-class-name="umo-block-menu-dropdown"
-          placement="right"
-        >
-          <t-dropdown-item
-            v-for="item in options.templates"
-            :key="item.value"
-            :value="item.value"
-            :divider="item.divider"
-            @click="setTemplate(item)"
-          >
-            <div class="umo-dropdown-item-label">{{ item.title }}</div>
-          </t-dropdown-item>
-        </t-dropdown-menu>
-      </t-dropdown-item>
+      
     </t-dropdown-menu>
   </t-dropdown>
 </template>
